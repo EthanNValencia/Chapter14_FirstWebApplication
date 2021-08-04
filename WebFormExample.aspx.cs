@@ -13,5 +13,13 @@ namespace Chapter14_FirstWebApplication
         {
 
         }
+
+        protected void buttonSubmit_Click(object sender, EventArgs e)
+        {
+            labelOutput.Text = "Submit button clicked. " +
+                               TextBoxFirstName.Text + " " +
+                               TextBoxLastName.Text + ": " +
+                               TextBoxEmail.Text;
+        }
     }
 }
