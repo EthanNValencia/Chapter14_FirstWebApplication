@@ -20,6 +20,7 @@ namespace Chapter14_FirstWebApplication
                                TextBoxFirstName.Text + " " +
                                TextBoxLastName.Text + ": " +
                                TextBoxEmail.Text;
+            labelOutput.ForeColor = System.Drawing.Color.Red;
         }
     }
 }

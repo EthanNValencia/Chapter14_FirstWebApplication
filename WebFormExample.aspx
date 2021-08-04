@@ -14,7 +14,7 @@
         }
     </style>
 </head>
-<body style="color: #339933; font-size: medium; font-weight: 700; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; float: none; top: auto; left: auto; border-style: groove; border-color: #008000; background-color: #333300"; margin: 0; padding:0px;>
+<body style="border-width: 10px; color: #000066; font-size: medium; font-weight: 700; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; float: none; top: auto; left: auto; border-style: ridge; background-color: #FFCC99; height: auto; width: auto; position: relative; bottom: auto; right: auto; z-index: 0; padding-left: 0px; padding-right: 0px;"; margin: 0; padding:0px;>
     <form id="form1" runat="server">
         <div>
         </div>
@@ -39,7 +39,7 @@
         <p style="text-align: center">
             <asp:Label ID="labelOutput" runat="server" Text="Label"></asp:Label>
         </p>
-        <p style="text-align: center; height: 100px">
+        <p style="text-align: center; height: 100px; position: relative;">
             &nbsp;</p>
     </form>
 </body>
